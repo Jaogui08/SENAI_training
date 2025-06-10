@@ -7,7 +7,7 @@ public class Atividade_5 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.print("Informe o turno em que você trabalha (M- Matutino, V- Vespertino, N- Noturno): ");
+		System.out.print("Informe o turno em que você trabalha (M - Matutino, V - Vespertino, N - Noturno): ");
 		String turno = scanner.next();
 
 		switch (turno.toUpperCase()) {
